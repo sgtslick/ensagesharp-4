@@ -28,7 +28,7 @@ namespace LastHitMarker
             var player = ObjectMgr.LocalPlayer;
             _me = player.Hero;
 
-            if (player == null || player.Team == Team.Observer || _me == null || _me.MinimumDamage > 120)
+            if (player == null || player.Team == Team.Observer || _me == null || _me.MinimumDamage > 160)
                 return;
 
             var quellingBlade = _me.FindItem(" item_quelling_blade ");
